@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Gill-Sans';
+    src: url('../fonts/GillSansMT.eot');
+    src: url('../fonts/GillSansMT.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GillSansMT.woff') format('woff'),
+    url('../fonts/GillSansMT.ttf') format('truetype'),
+    url('../fonts/GillSansMT.svg#Gill-Sans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hawai-Punk';
+    src: url('../fonts/HawaiianPunk.eot');
+    src: url('../fonts/HawaiianPunk.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HawaiianPunk.woff') format('woff'),
+    url('../fonts/HawaiianPunk.ttf') format('truetype'),
+    url('../fonts/HawaiianPunk.svg#Hawai-Punk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gro-Bold';
+    src: url('../fonts/GROBOLD.eot');
+    src: url('../fonts/GROBOLD.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GROBOLD.woff') format('woff'),
+    url('../fonts/GROBOLD.ttf') format('truetype'),
+    url('../fonts/GROBOLD.svg#Gro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

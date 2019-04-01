@@ -1,0 +1,297 @@
+@media only screen and (min-width: 1024px) and (max-width: 1139px) {
+    .main-menu .navbar-nav > li {
+        margin-left: 14px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .main-header {
+        position: relative;
+        padding: 30px 0px 0px;
+        background: #323334;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .main-header .play-now {
+        position: absolute;
+        float: none;
+        right: 0px;
+        margin-top: -70px;
+    }
+
+    .main-header .social-links {
+        position: absolute;
+        float: none;
+        right: 170px;
+        margin-top: -70px;
+    }
+
+    .main-menu {
+        float: none !important;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .main-menu .navbar-nav {
+        float: none !important;
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+    }
+
+    .main-menu .navbar-nav > li {
+        float: none !important;
+        display: inline-block !important;
+        margin: 0px 10px;
+    }
+
+    .main-slider li {
+        padding-top: 100px;
+    }
+
+    .main-slider li h2 {
+        font-size: 40px;
+    }
+
+    .main-slider li .slide-txt br {
+        display: none;
+    }
+
+    .main-slider .scroll-down {
+        bottom: -10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .main-header .logo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-header .logo img {
+        max-width: 200px;
+    }
+
+    .main-header .header-right {
+        padding-top: 15px;
+    }
+
+    .main-header .play-now {
+        position: relative;
+        float: left !important;
+        right: 0px;
+        top: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        z-index: 5;
+    }
+
+    .main-header .social-links {
+        position: relative;
+        float: left !important;
+        right: 0px;
+        top: 0px;
+        margin-top: 0px;
+        margin-left: 15px;
+        z-index: 5;
+    }
+
+    .main-slider .scroll-down {
+        display: none !important;
+    }
+
+    .sec-title h2,
+    .popup-container .pop-box h2 {
+        font-size: 30px !important;
+    }
+
+    .main-header .main-menu .navbar-toggle {
+        border: 1px solid #fcd100;
+    }
+
+    .main-header .main-menu .navbar-toggle .icon-bar {
+        background: #fcd100;
+    }
+
+    .main-menu .navbar-collapse {
+        padding: 15px !important;
+        border: none;
+        margin: 0px;
+        max-height: none;
+        overflow: hidden;
+        box-shadow: none;
+        -ms-box-shadow: none;
+        -moz-box-shadow: none;
+        -o-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+    .main-menu .navbar-collapse .navbar-nav {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid #ffffff;
+    }
+
+    .main-header .main-menu .navbar-nav > li {
+        border-bottom: 1px solid #ffffff;
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .main-header .main-menu .navbar-nav > li > a {
+        line-height: 20px;
+        padding: 7px 15px;
+        display: block;
+        font-size: 15px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        -moz-border-radius: 0px;
+    }
+
+    .main-header .main-menu .navbar-nav > li > a:after {
+        display: none;
+    }
+
+    .main-header .main-menu .navbar-nav > li:hover > a,
+    .main-header .main-menu .navbar-nav > li.current > a {
+        color: #ffffff;
+        background: #fcd100;
+    }
+
+    #about-us .team-members .member {
+        margin: 0 auto;
+    }
+
+    #about-us .image-slider {
+        margin-top: 0px;
+    }
+
+    #about-us .member-detail .image {
+        float: none;
+        width: 70%;
+        max-width: 300px;
+        margin: 15px auto;
+        padding: 0px 10px;
+    }
+
+    #about-us .member-detail .detail {
+        float: none;
+        width: 100%;
+        margin: 15px auto;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    #about-us .member-detail .detail .name {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    #main-footer .contact-form button[type="button"],
+    #main-footer .contact-form button[type="submit"] {
+        width: 100%;
+        float: none;
+    }
+
+    .owl-dots,
+    .owl-nav {
+        display: none !important;
+    }
+
+    .main-slider li {
+        padding-bottom: 80px;
+    }
+
+    .main-slider li h2 {
+        font-size: 28px;
+    }
+
+    .developer-sec .dev-login {
+        margin-bottom: 40px;
+    }
+
+    .developer-sec .sign-up .form-container {
+        margin: 0px;
+    }
+
+    .sign-up .form-container .form-group {
+        float: none;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .contact-us .contact-right {
+        padding-left: 15px !important;
+    }
+
+    #about-us .image-slider .owl-stage-outer {
+        overflow: visible;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .contact-us .contact-form .captua-box > img {
+        width: 100%;
+    }
+
+    .pop-box.forgot-pass {
+        padding: 20px 15px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .main-header .header-right .play-now {
+        display: none;
+    }
+
+    .main-header .main-menu .navbar-toggle {
+        margin-top: 2px;
+    }
+
+    #client-testimonials .testi-box {
+        padding-left: 0px;
+    }
+
+    #client-testimonials .testi-box .white-box {
+        position: relative;
+        top: 15px;
+        left: 75px;
+    }
+
+    #client-testimonials .testi-box .arrow {
+        display: none;
+    }
+
+    #about-us .team-members .member .white-outer,
+    #about-us .team-members .member .white-box {
+        width: 200px;
+        height: 200px;
+        border-width: 12px;
+    }
+
+    #about-us .team-members .member .white-box img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #about-us .team-members .social {
+        left: 0px;
+        bottom: -30px;
+    }
+
+    #about-us .team-members .member-name {
+        left: 120px;
+        bottom: 30px;
+    }
+}
+

@@ -1,0 +1,209 @@
+@media only screen and (min-width: 1024px) and (max-width: 1139px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+    .right-content .content-area .forms .form-group {
+        float: none;
+        width: 100%;
+        padding-right: 5px;
+    }
+
+    .right-content .content-area .forms .form-group .current-value,
+    .right-content .content-area .forms .form-group .form-field-box {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .div_add_order_time {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #timepicker1 {
+        width: 60px;
+    }
+
+    .right-content .content-area .forms .form-group .action-btns {
+        position: relative;
+        right: auto;
+        left: auto;
+        top: auto;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-content .content-area .forms .form-group .action-btns .edit,
+    .right-content .content-area .forms .form-group .action-btns .save,
+    .right-content .content-area .forms .form-group .action-btns .reset {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: 0px;
+        float: left;
+        width: 30.3333%;
+        margin: 0px 1.5%;
+    }
+
+    .right-content .lower-content {
+        background: #4b637a;
+    }
+
+    .right-content .top-header {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+    }
+
+    .right-content .top-header .sidebar-toggle {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+    }
+
+    #sidebar {
+        right: -286px;
+        z-index: 100;
+    }
+
+    #sidebar.back-side {
+        right: 0px;
+    }
+
+    .page-container {
+        padding-right: 0px;
+    }
+
+    .page-container.sidebar-hidden {
+        padding-right: 0px;
+    }
+
+    .right-content .top-header {
+        padding-left: 70px;
+    }
+
+    .sidebar-hidden .right-content .top-header {
+        padding-left: 30px;
+    }
+
+    .right-content .top-header .sidebar-toggle {
+        right: 0px;
+        z-index: 101;
+    }
+
+    .right-content .top-header .sidebar-toggle.sidebar-altered {
+        left: 284px;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+    }
+
+    .add-game-files .checkbox {
+        padding-right: 10px;
+    }
+
+    .content-area .game-intro .add-music-file {
+        padding-right: 0px;
+    }
+
+    .content-area .game-intro .file-text,
+    .content-area .game-intro .file-here {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .content-area .game-intro .save-file {
+        position: relative;
+    }
+
+    .content-area .game-intro .save-file button {
+        text-align: center;
+        width: 100%;
+        padding: 15px 10x;
+        top: -50px;
+    }
+
+    .right-content .content-area .change-password .field-outer {
+        margin-bottom: 15px;
+    }
+
+    .tetra-block-banner.tri-block-banner .block {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .tri-block-banner .block .icon img {
+        max-width: 80%;
+    }
+
+    .right-content .page-title .page-name,
+    .right-content .page-title .prof-id {
+        float: none !important;
+        width: 100%;
+    }
+
+    .page-title .sel-box {
+        float: none;
+        width: 100%;
+    }
+
+    .right-content .content-area .change-password input {
+        display: block;
+        margin: 5px 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .tri-block-banner .block,
+    .tetra-block-banner.tri-block-banner .block {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .right-content .top-header {
+        padding-left: 60px;
+    }
+
+    .top-header .header-inner .contact-btn a {
+        padding: 10px 10px 10px 0;
+    }
+
+    .top-header .header-inner .user-info .user-btn {
+        padding: 7px 20px 7px 0;
+    }
+
+    .top-header .header-inner .contact-btn a img,
+    .top-header .header-inner .user-info .user-btn img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .content-area .add-photo {
+        width: auto;
+    }
+
+    .table-section .data-table .table-head .cell {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    .table-section .data-table .data-row .cell {
+        float: none !important;
+        width: 100% !important;
+    }
+
+}
+
