@@ -9,7 +9,7 @@
   "type": "project",
   "require": {
     "php": ">=5.5.9",
-    //"laravel/framework": "5.1.*",
+    "laravel/framework": "5.1.*",
     "guzzlehttp/guzzle": "~5.3|~6.0",
     "vinkla/hashids": "2.*",
     "laravelcollective/html": "5.1.*",
